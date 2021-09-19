@@ -143,7 +143,6 @@ def instruction_text(message):
         mess = f'Ты ввела секретный промокод. Твой счет увеличился на <b>+11000$</b>. На вашем счету <b>{session.points}$</b>'
         bot.send_message(message.chat.id, mess, parse_mode='html')
 
-
     # Обраболтчик неправильных команд
     else:
         mess = 'Ты ввела что-то не то, проверь текст на опечатки и попробуй еще раз...'
